@@ -17,5 +17,5 @@
     <string name="input_option">Вывести</string>
     <string name="calc">Рассчитать</string>
     <string name="calc_type">Способ расчета</string>
-    <string name="hint_enter_num">Введите число от 1 до 333</string>
+    <string name="hint_enter_num">Введите число от 1 до 30</string>
 </resources>

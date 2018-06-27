@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
                 if (number < 1) {
                     Toast.makeText(this, "Вы ввели слишком маленькое число", Toast.LENGTH_LONG).show();
                     return 0;
-                } else if (number > 333) {
+                } else if (number > 30) {
                     Toast.makeText(this, "Вы ввели слишком большое число", Toast.LENGTH_LONG).show();
                     return 0;
                 } else
@@ -208,7 +208,7 @@ public class MainActivity extends AppCompatActivity {
         return 0;
     }
 
-    private int recursion (int num){
+    private long recursion (int num){
 
         if (num == 0)
             return 0;
@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private int linear (int num){
+    private long linear (int num){
 
         if (num == 0)
             return 0;
