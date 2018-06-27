@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Fibonacchi</string>
+
+    <string-array name="output_options">
+        <item>Ряд</item>
+        <item>Число из ряда</item>
+    </string-array>
+
+    <string-array name="calc_type">
+        <item>Рекурсия</item>
+        <item>Линейная функция</item>
+        <item>Формула Бине</item>
+    </string-array>
+
+    <string name="option_one">Число</string>
+    <string name="title">Вычисление чисел Фибоначчи</string>
+    <string name="input_option">Вывести</string>
+    <string name="calc">Рассчитать</string>
+    <string name="calc_type">Способ расчета</string>
+    <string name="hint_enter_num">Введите число от 1 до 333</string>
 </resources>
