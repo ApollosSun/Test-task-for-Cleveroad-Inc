@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (indexFunc == 1){
 
+                resultStr = "Вычисление в рекурсивной функции:" + '\n' + '\n';
                 for (int i = 0; i < 30; i++){
                     result = recursion(i);
                     if (i < 29)
@@ -136,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
 
             } else if (indexFunc == 2){
 
+                resultStr = "Вычисление в линейной функции:" + '\n' + '\n';
                 for (int i = 0; i < 30; i++){
                     result = linear(i);
                     if (i < 29)
@@ -146,6 +148,7 @@ public class MainActivity extends AppCompatActivity {
 
             } else if (indexFunc == 3) {
 
+                resultStr = "Вычисление с помощью формулы Бине:" + '\n' + '\n';
                 for (int i = 0; i < 30; i++){
                     result = binesFormula(i);
                     if (i < 29)
@@ -161,17 +164,19 @@ public class MainActivity extends AppCompatActivity {
                 if (indexFunc == 1){
 
                     result = recursion(number);
+                    resultStr = "Вычисление в рекурсивной функции:" + '\n' + '\n' + Long.toString(result);
 
                 } else if (indexFunc == 2){
 
                     result = linear(number);
+                    resultStr = "Вычисление в линейной функции:" + '\n' + '\n' + Long.toString(result);
 
                 } else if (indexFunc == 3) {
 
                     result = binesFormula(number);
+                    resultStr = "Вычисление с помощью формулы Бине:" + '\n' + '\n' + Long.toString(result);
                 }
             }
-            resultStr = Long.toString(result);
         }
 
         if (result != -1) {
